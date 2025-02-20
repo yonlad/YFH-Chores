@@ -36,11 +36,18 @@ p{
     h1{
       font-size: 75px;
     }
+    
   }
   
   @media only screen and (min-width: 1185px){
     .dog-img{
       width: 450px;
       height: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 550px){
+    #navbar{
+      word-spacing: 65px;
     }
   }
