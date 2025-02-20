@@ -1,0 +1,46 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+  }
+ 
+p{
+  font-size: 23px;
+}  
+
+
+  body{
+    background-color: teal;
+  }
+  
+  #navbar{
+    background-color: teal;
+    text-align: center;
+    word-spacing: 100px;
+  }
+  
+  section{
+    text-align: center;
+  }
+  
+  .dog-img{
+    width: 300px;
+    height: 200px;
+  }
+
+  #image-container{
+    text-align: center;
+  }
+
+
+  @media only screen and (min-width: 950px){
+    h1{
+      font-size: 75px;
+    }
+  }
+  
+  @media only screen and (min-width: 1185px){
+    .dog-img{
+      width: 450px;
+      height: 300px;
+    }
+  }
